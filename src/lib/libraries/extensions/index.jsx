@@ -19,6 +19,15 @@ import translateInsetIconURL from './translate/translate-small.png';
 import makeymakeyIconURL from './makeymakey/makeymakey.png';
 import makeymakeyInsetIconURL from './makeymakey/makeymakey-small.svg';
 
+import pigpioIconURL from './pigpio/pigpio.png';
+import pigpioInsetIconURL from './pigpio/pigpio-small.svg';
+
+import pisensehatIconURL from './pisensehat/pisensehat.png';
+import pisensehatInsetIconURL from './pisensehat/pisensehat-small.svg';
+
+import pivsgpioIconURL from './pivsgpio/pivsgpio.png';
+import pivsgpioInsetIconURL from './pivsgpio/pivsgpio-small.svg';
+
 import microbitIconURL from './microbit/microbit.png';
 import microbitInsetIconURL from './microbit/microbit-small.svg';
 import microbitConnectionIconURL from './microbit/microbit-illustration.svg';
@@ -162,6 +171,51 @@ export default [
                 defaultMessage="Make anything into a key."
                 description="Description for the 'Makey Makey' extension"
                 id="gui.extension.makeymakey.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: 'Raspberry Pi GPIO',
+        extensionId: 'pigpio',
+        collaborator: 'Raspberry Pi',
+        iconURL: pigpioIconURL,
+        insetIconURL: pigpioInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Control Raspberry Pi GPIO lines"
+                description="Description for the 'Pi GPIO' extension"
+                id="gui.extension.pigpio.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: 'Raspberry Pi Sense HAT',
+        extensionId: 'pisensehat',
+        collaborator: 'Raspberry Pi',
+        iconURL: pisensehatIconURL,
+        insetIconURL: pisensehatInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Control Raspberry Pi Sense HAT"
+                description="Description for the 'Pi Sense HAT' extension"
+                id="gui.extension.pisensehat.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: 'Raspberry Pi Simple Electronics',
+        extensionId: 'pivsgpio',
+        collaborator: 'Raspberry Pi',
+        iconURL: pivsgpioIconURL,
+        insetIconURL: pivsgpioInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Simple electronics with Raspberry Pi"
+                description="Description for the 'Pi Simple Electronics' extension"
+                id="gui.extension.pivsgpio.description"
             />
         ),
         featured: true
