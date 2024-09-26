@@ -1,5 +1,5 @@
 # scratch-gui
-
+cd /mnt/c/Users/Maite-Aileen.Brandt/Documents/GitHub/
 Scratch GUI is a set of React components that comprise the interface for creating and running Scratch 3.0 projects
 
 To open the current build in your browser on Github Pages:
@@ -56,7 +56,7 @@ Here's how to link your local `scratch-gui` code to another project's `node_modu
 
 1. In your local `scratch-gui` repository's top level:
     1. Make sure you have run `npm install`
-    2. Build the `dist` directory by running `BUILD_MODE=dist npm run build`
+    2. Build the `dist` directory by running `BUILD_MODE=dist npm run build` (`set BUILD_MODE=dist && npm run build`)
     3. Establish a link to this repository by running `npm link`
 
 2. From the top level of each repository (such as `scratch-www`) that depends on `scratch-gui`:
